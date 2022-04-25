@@ -1,0 +1,23 @@
+.img-fluid   {
+max-width: 100%;
+height: auto;
+}
+
+
+
+.heading   {
+    width: 100%;
+    padding: 200px;
+    background-color: blueviolet;
+}
+
+h1   {
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.btn  {
+    font-size: 15px;
+    color:black;
+}
