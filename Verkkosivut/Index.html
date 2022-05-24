@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+
+<title>Lapsuuden pelottavimmat tv-hahmot</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="stylesheet" href= "Style.12index.css">
+</head>
+
+<body>
+
+<header>
+<img class="eyes" alt="Silmät" src="Eyes.jpg">
+</header>
+
+<h1>Lapsuuden pelottavimmat tv-hahmot</h1>
+
+<nav>
+        <a class="highlight"  href="Index.html">Etusivu</a>
+        <a class="highlight"  href="Second.html">Morso</a>
+        <a class="highlight" href="Third.html">Mörkö</a>
+        <a class="highlight" href="Fourth.html">Jäärouva</a>
+</nav>
+
+<section>
+    <h3>Olemme koonneet sivustolle kolme pelottavinta lapsuuden tv-hahmoa</h3>
+    <p>Miksi? Se on validi kysymys. 
+        Lapsuuden pelottavat tv-hahmot viehättävät näin aikuisiällä, koska ymmärrämme ne moniulotteisemmin, kuin lapsena.
+    Huomaamme, että hahmoissa on paljon enemmän, kuin mitä luulimme heissä olevan.
+Joillekin uudelleen tutustuminen hahmoihin ja niihin liittyviin faktoihin voi helpottaa lapsuudessa kehittyneeseen pelkoon ja sen tuomiin mielikuviin.
+Jos koet vahvoja pelkotiloja, suosittelemme sulkemaan sivuston välittömästi.</p>
+
+<div id="vote">
+    <h4>Vastaa kyselyyn; Kuka on mielestäsi sivustolla esiintyvistä hahmoista pelottavin?</h4>
+    <p>Jos et ole varma, tutustu rauhassa sivuston hahmoihin ja palaa sitten antamaan äänesi!</p>
+    <form>
+    Morso <input type="radio" name="vote" value="0" onclick="getVote(this.value)"><br>
+    Mörkö <input type="radio" name="vote" value="1" onclick="getVote(this.value)"><br>
+    Jäärouva <input type="radio" name="vote" value="2" onclick="getVote(this.value)">
+    <p></p>
+    <input type="submit" value="Submit">
+    <p>Julkaisemme äänestyksen tulokset 30.12.2022.</p>
+    </form>
+    </div>
+
+</section>
+
+<footer>
+    Sivusto ei ota kantaa sen herättämiin mahdollisiin lapsuuden traumoihin. Sivustolla kävijä on täysin omalla vastuullaan.
+</footer>
+
+</body>
+</html>
