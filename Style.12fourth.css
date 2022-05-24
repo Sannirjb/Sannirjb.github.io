@@ -1,0 +1,89 @@
+@media screen and (max-width: 481px) {
+    
+}
+
+body   {
+    background-color: black;
+    font-size: 15px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    font-family: "Times New Roman", Georgia, Serif;
+    min-width: 640px;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 1px;
+}
+
+header   {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+h1   {
+    font-size: 65px;
+    text-shadow: 4px 3px 0px #585671, 2px 2px 1px rgba(153,126,206,0.05);
+    color: black;
+    text-align: center;
+}
+
+nav   {
+    width: 100%;
+    padding: 50px;
+    word-spacing: 280px;
+    font-size: 20px;
+}
+
+h3   {
+    font-size: 50px;
+    text-shadow: 4px 3px 0px #585671, 2px 2px 1px rgba(153,126,206,0.05);
+    color: black;
+    text-align: center;
+}
+
+section  {
+    border: 3px double #585671 ;
+    border-radius: 3px;
+}
+
+p   {
+    width: 70%;
+    font-size: 20px;
+    font-family: "Playfair Display";
+    letter-spacing: 1px;
+    color: #585671;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jää  {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+iframe  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+}
+
+footer   {
+    color: #585671;
+    text-align: center;
+    padding: 20px;
+}
